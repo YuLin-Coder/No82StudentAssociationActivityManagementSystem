@@ -1,0 +1,68 @@
+
+
+.navgrp{ position:relative;top:0px;left:0px;width:100%;height:48px;background-color:#0e823b; }
+.nav{position:relative;width:1200px;height:50px;margin: 0 auto;}
+.nav li{position: relative;float:left;text-align:left;width:103px;height:50px;display: block;}
+.nav li a{width:103px;height:50px;display:block;border-top:3px solid transparent;margin-top: -2px;color:#fff;font-size:16px;line-height:50px;text-align: center;overflow: hidden;    }
+.nav .on a,.nav .cur a{height:50px; border-top:3px solid #339933;color:#339933; line-height:48px; background-color:#00FF66}
+.nav .menu a{width:103px;height:50px;display:block;border-top:3px solid #FF66CC;margin-top: -2px;color:#FF66CC;font-size:16px;line-height:50px;text-align: center;}
+#navChild{position:absolute;left:0px;top:48px;width:103px;z-index:99;display: none;padding:0px 0px 0px 0px;background:#00FF66;}
+#navChild a{position:relative;width:103px;height: 36px;display:block;border-top:none;color:#333!important;font-size:14px;line-height:36px;text-align:center;overflow: hidden;}
+#navChild a:hover{color:#ae2422!important;background-image:none!important;}
+
+.newsline TD {
+	LINE-HEIGHT: 25px; BORDER-BOTTOM: #c9c9c9 1px dashed
+}
+.newsline TD A:link {
+	COLOR: #000
+}
+.newsline TD A:visited {
+	COLOR: #000
+}
+.newsline TD A:hover {
+	COLOR: #000
+}
+.newsline TD A:active {
+	COLOR: #000
+}
+
+#hsgbanner {
+
+	position:absolute;
+	left:0px;
+	top:139px;
+	width:100%;
+	height:52px;
+	 z-index:999999;
+}
+
+
+.fixednav{
+ position:fixed;
+ top:0px;
+ left:0px;
+ width:100%;
+ z-index:999999;
+}
+
+.button, button, input[type="submit"], input[type="button"], input[type="reset"] {
+	display: inline-block;
+	padding: 9px 15px 8px;
+	background:#009933;
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	font-weight: 800;
+	
+	border: 0;
+}
+.button:hover, .button:focus, button:hover, button:focus, input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:focus, input[type="button"]:focus, input[type="reset"]:focus {
+	outline: none;
+	cursor: pointer;
+	background: #272727;
+	color: #fff
+}
